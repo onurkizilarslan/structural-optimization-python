@@ -1,0 +1,51 @@
+{
+  "problem": {
+    "aciklik_mm": 4000.0,
+    "yukseklik_mm": 3000.0,
+    "yuk_N": 120000,
+    "E_MPa": 200000.0,
+    "yogunluk_kg_mm3": 7.85e-06,
+    "gerilme_sinir_MPa": 160.0,
+    "deplasman_sinir_mm": 2,
+    "alan_min_mm2": 200.0,
+    "alan_max_mm2": 3000.0
+  },
+  "ayarlar": {
+    "yuk_kn": 120,
+    "deplasman_mm": 2,
+    "parcacik": 40,
+    "iterasyon": 300,
+    "kosu": 10
+  },
+  "referans": {
+    "areas": [
+      566.6666666666666,
+      1021.5728613814636,
+      1021.5728613814636
+    ],
+    "mass": 75.62166666666666,
+    "uy": -2.0,
+    "force": [
+      40000.0,
+      -72111.02550927979,
+      -72111.02550927979
+    ]
+  },
+  "en_iyi": {
+    "seed": 5,
+    "A1_mm2": 566.0257701433111,
+    "A2_mm2": 1021.3942682074181,
+    "A3_mm2": 1022.4640879819432,
+    "kutle_kg": 75.6217125912563,
+    "uy_mm": -1.9999999929253465,
+    "uygun": true,
+    "toplam_ihlal": 0.0,
+    "degerlendirme": 12040,
+    "referanstan_fark_yuzde": 6.0729406881065984e-05
+  },
+  "uygun_kosu": 10,
+  "yuzde_01_yakin_kosu": 10,
+  "baslangic_kutle_kg": 132.01073253717695,
+  "baslangic_uy_mm": -1.2193814795784863,
+  "baslangic_uygun": true
+}

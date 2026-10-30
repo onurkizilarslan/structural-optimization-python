@@ -1,0 +1,183 @@
+{
+  "problem": {
+    "yuk_N": 120000,
+    "E": 200000.0,
+    "rho": 7.85e-06,
+    "sigma_sinir": 160.0
+  },
+  "ayarlar": {
+    "kosu": 10,
+    "populasyon": 100,
+    "nesil": 80,
+    "yuk_kn": 120
+  },
+  "alanlar_mm2": [
+    200.0,
+    300.0,
+    400.0,
+    500.0,
+    650.0,
+    800.0,
+    1000.0,
+    1250.0,
+    1500.0,
+    2000.0,
+    2500.0,
+    3000.0
+  ],
+  "kombinasyon": 1728,
+  "uygun_kombinasyon": 891,
+  "gercek_pareto_nokta": 58,
+  "kosular": [
+    {
+      "seed": 0,
+      "son_pareto_nokta": 58,
+      "gercek_pareto_eslesme": 58,
+      "kapsama_yuzde": 100.0,
+      "dogruluk_yuzde": 100.0,
+      "hypervolume_orani": 1.0,
+      "degerlendirme": 8100,
+      "benzersiz_analiz": 1500
+    },
+    {
+      "seed": 1,
+      "son_pareto_nokta": 58,
+      "gercek_pareto_eslesme": 58,
+      "kapsama_yuzde": 100.0,
+      "dogruluk_yuzde": 100.0,
+      "hypervolume_orani": 1.0,
+      "degerlendirme": 8100,
+      "benzersiz_analiz": 1528
+    },
+    {
+      "seed": 2,
+      "son_pareto_nokta": 58,
+      "gercek_pareto_eslesme": 58,
+      "kapsama_yuzde": 100.0,
+      "dogruluk_yuzde": 100.0,
+      "hypervolume_orani": 1.0,
+      "degerlendirme": 8100,
+      "benzersiz_analiz": 1515
+    },
+    {
+      "seed": 3,
+      "son_pareto_nokta": 58,
+      "gercek_pareto_eslesme": 58,
+      "kapsama_yuzde": 100.0,
+      "dogruluk_yuzde": 100.0,
+      "hypervolume_orani": 1.0,
+      "degerlendirme": 8100,
+      "benzersiz_analiz": 1522
+    },
+    {
+      "seed": 4,
+      "son_pareto_nokta": 58,
+      "gercek_pareto_eslesme": 58,
+      "kapsama_yuzde": 100.0,
+      "dogruluk_yuzde": 100.0,
+      "hypervolume_orani": 1.0,
+      "degerlendirme": 8100,
+      "benzersiz_analiz": 1524
+    },
+    {
+      "seed": 5,
+      "son_pareto_nokta": 58,
+      "gercek_pareto_eslesme": 58,
+      "kapsama_yuzde": 100.0,
+      "dogruluk_yuzde": 100.0,
+      "hypervolume_orani": 1.0,
+      "degerlendirme": 8100,
+      "benzersiz_analiz": 1525
+    },
+    {
+      "seed": 6,
+      "son_pareto_nokta": 58,
+      "gercek_pareto_eslesme": 58,
+      "kapsama_yuzde": 100.0,
+      "dogruluk_yuzde": 100.0,
+      "hypervolume_orani": 1.0,
+      "degerlendirme": 8100,
+      "benzersiz_analiz": 1518
+    },
+    {
+      "seed": 7,
+      "son_pareto_nokta": 58,
+      "gercek_pareto_eslesme": 58,
+      "kapsama_yuzde": 100.0,
+      "dogruluk_yuzde": 100.0,
+      "hypervolume_orani": 1.0,
+      "degerlendirme": 8100,
+      "benzersiz_analiz": 1525
+    },
+    {
+      "seed": 8,
+      "son_pareto_nokta": 58,
+      "gercek_pareto_eslesme": 58,
+      "kapsama_yuzde": 100.0,
+      "dogruluk_yuzde": 100.0,
+      "hypervolume_orani": 1.0,
+      "degerlendirme": 8100,
+      "benzersiz_analiz": 1512
+    },
+    {
+      "seed": 9,
+      "son_pareto_nokta": 58,
+      "gercek_pareto_eslesme": 58,
+      "kapsama_yuzde": 100.0,
+      "dogruluk_yuzde": 100.0,
+      "hypervolume_orani": 1.0,
+      "degerlendirme": 8100,
+      "benzersiz_analiz": 1519
+    }
+  ],
+  "temsilciler": [
+    {
+      "tercih": "En hafif",
+      "seed": 0,
+      "A1_mm2": 300.0,
+      "A2_mm2": 500.0,
+      "A3_mm2": 500.0,
+      "kutle_kg": 37.72357751239231,
+      "tepe_deplasman_mm": 4.013699994291014,
+      "uygun": true,
+      "max_gerilme_MPa": 144.2220510185596,
+      "tam_taramada_pareto": true
+    },
+    {
+      "tercih": "2 mm hedefinde en hafif",
+      "seed": 0,
+      "A1_mm2": 650.0,
+      "A2_mm2": 1000.0,
+      "A3_mm2": 1000.0,
+      "kutle_kg": 77.01715502478464,
+      "tepe_deplasman_mm": 1.9726619629574726,
+      "uygun": true,
+      "max_gerilme_MPa": 72.11102550927978,
+      "tam_taramada_pareto": true
+    },
+    {
+      "tercih": "En az yer değiştiren",
+      "seed": 0,
+      "A1_mm2": 3000.0,
+      "A2_mm2": 3000.0,
+      "A3_mm2": 3000.0,
+      "kutle_kg": 264.0214650743539,
+      "tepe_deplasman_mm": 0.6096907397892432,
+      "uygun": true,
+      "max_gerilme_MPa": 24.037008503093272,
+      "tam_taramada_pareto": true
+    }
+  ],
+  "hv_alt": [
+    37.72357751239231,
+    0.6096907397892432
+  ],
+  "hv_aralik": [
+    226.2978875619616,
+    3.4040092545017706
+  ],
+  "hv_referans": [
+    1.1,
+    1.1
+  ]
+}
